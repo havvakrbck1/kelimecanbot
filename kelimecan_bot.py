@@ -6,7 +6,7 @@ logging.basicConfig(level=logging.DEBUG)
 import telebot
 import random
 
-TOKEN = '8021903015:AAEwBMVSzdFnlM5BcjtEFIw3GRCCoYwsofs'  
+TOKEN = ''  
 bot = telebot.TeleBot(TOKEN)
 
 
