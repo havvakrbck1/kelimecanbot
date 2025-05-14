@@ -1,26 +1,22 @@
 
----
+# Wordy Bot
 
-## 6️⃣ `kelimecanbot/README.md`
+A Telegram bot that provides word definitions, synonyms, and translations.
 
--markdown
-# 🔤 kelimecanbot
+## Features
+- Fetches word definitions
+- Provides synonyms and antonyms
+- Translates words into multiple languages
 
-Telegram veya Discord için geliştirilen bu bot, kullanıcılara anlık kelime oyunları sunar. Zeka geliştirme ve eğlenme odaklıdır.
+## Technologies Used
+- Python 3
+- Telegram Bot API
+- Dictionary APIs
 
-## 💡 Özellikler
-- Rastgele harflerle kelime türetme
-- Zamanlı yarışma modu
-- Puanlama sistemi
+## Installation
 
-## 🚀 Kullanılan Teknolojiler
-- Python
-- Telebot (ya da Discord.py, hangi platformsa)
-
-## ⚙️ Kurulum
-
--bash
-git clone https://github.com/havvakrbck1/kelimecanbot.git
-cd kelimecanbot
+bash
+git clone https://github.com/havvakrbck1/wordy-bot.git
+cd wordy-bot
 pip install -r requirements.txt
 python bot.py
